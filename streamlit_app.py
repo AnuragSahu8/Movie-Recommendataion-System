@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import requests
-import pandas
 
 movies=pickle.load(open('movies.pkl','rb'))
 movies_list=movies['title'].values
